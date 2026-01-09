@@ -1,0 +1,480 @@
+{
+    "tokens": {},
+    "exercises": [
+        {
+            "id": 0,
+            "name": "Wyciskanie sztangi leżąc",
+            "muscles": [
+                { "name": "piersiowy", "ratio": 0.6 },
+                { "name": "triceps", "ratio": 0.25 },
+                { "name": "naramienny", "ratio": 0.15 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": ["sztanga", "ławka"],
+            "movement": "push",
+            "type": "Siła",
+            "difficulty": "średni",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Połóż się na ławce płaskiej, stopy stabilnie na podłodze.",
+                "Chwyć sztangę nieco szerzej niż barki.",
+                "Opuść sztangę kontrolowanie do klatki piersiowej.",
+                "Wypchnij sztangę do góry, prostując ramiona."
+            ],
+            "image": "bench.png",
+            "video": "bench.gif"
+        },
+
+        {
+            "id": 1,
+            "name": "Przysiady ze sztangą",
+            "muscles": [
+                { "name": "czworoglowy", "ratio": 0.45 },
+                { "name": "posladki", "ratio": 0.35 },
+                { "name": "gornybrzucha", "ratio": 0.2 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": ["sztanga"],
+            "movement": "legs",
+            "type": "Siła",
+            "difficulty": "trudny",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Ustaw sztangę na górnej części pleców.",
+                "Zejdź w dół, zginając kolana i biodra.",
+                "Utrzymuj proste plecy i napięty brzuch.",
+                "Wróć do pozycji stojącej."
+            ],
+            "image": "backsquat.png",
+            "video": ""
+        },
+
+        {
+            "id": 2,
+            "name": "Martwy ciąg klasyczny",
+            "muscles": [
+                { "name": "posladki", "ratio": 0.35 },
+                { "name": "dwuglowy", "ratio": 0.25 },
+                { "name": "czworoboczny", "ratio": 0.2 },
+                { "name": "gornybrzucha", "ratio": 0.2 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": ["sztanga"],
+            "movement": "hinge",
+            "type": "Siła",
+            "difficulty": "trudny",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Ustaw stopy na szerokość bioder.",
+                "Chwyć sztangę i napnij plecy.",
+                "Podnieś sztangę, prostując biodra i kolana.",
+                "Opuść ciężar w kontrolowany sposób."
+            ],
+            "image": "deadlift.png",
+            "video": ""
+        },
+
+        {
+            "id": 3,
+            "name": "Wyciskanie sztangi nad głowę (OHP)",
+            "muscles": [
+                { "name": "naramienny", "ratio": 0.6 },
+                { "name": "biceps", "ratio": 0.25 },
+                { "name": "gornybrzucha", "ratio": 0.15 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": ["sztanga"],
+            "movement": "push",
+            "type": "Siła",
+            "difficulty": "średni",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Stań prosto ze sztangą na wysokości barków.",
+                "Wypchnij sztangę nad głowę.",
+                "Kontroluj ruch w dół.",
+                "Utrzymuj napięty brzuch."
+            ],
+            "image": "ohp.png",
+            "video": ""
+        },
+
+        {
+            "id": 4,
+            "name": "Podciąganie podchwytem",
+            "muscles": [
+                { "name": "najszerszy", "ratio": 0.55 },
+                { "name": "triceps", "ratio": 0.25 },
+                { "name": "przedramiona", "ratio": 0.2 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": ["drążek"],
+            "movement": "pull",
+            "type": "Siła",
+            "difficulty": "trudny",
+            "bodyweightFactor": 0.9,
+            "instructions": [
+                "Zawiśnij na drążku nachwytem.",
+                "Podciągnij się, aż broda znajdzie się nad drążkiem.",
+                "Kontroluj opuszczanie.",
+                "Unikaj bujania."
+            ],
+            "image": "pull_up.png",
+            "video": ""
+        },
+
+        {
+            "id": 5,
+            "name": "Wiosłowanie sztangą",
+            "muscles": [
+                { "name": "najszerszy", "ratio": 0.45 },
+                { "name": "przedramiona", "ratio": 0.3 },
+                { "name": "biceps", "ratio": 0.25 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": ["sztanga"],
+            "movement": "pull",
+            "type": "Siła",
+            "difficulty": "średni",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Pochyl tułów do przodu.",
+                "Przyciągnij sztangę do brzucha.",
+                "Ściągnij łopatki.",
+                "Opuść ciężar kontrolowanie."
+            ],
+            "image": "barbell_row.png",
+            "video": ""
+        },
+
+        {
+            "id": 6,
+            "name": "Pompki",
+            "muscles": [
+                { "name": "piersiowy", "ratio": 0.5 },
+                { "name": "triceps", "ratio": 0.3 },
+                { "name": "gornybrzucha", "ratio": 0.2 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": [],
+            "movement": "push",
+            "type": "Masa ciała",
+            "difficulty": "łatwy",
+            "bodyweightFactor": 0.65,
+            "instructions": [
+                "Ustaw dłonie pod barkami.",
+                "Opuść klatkę piersiową do podłogi.",
+                "Wypchnij ciało w górę.",
+                "Utrzymuj napięty brzuch."
+            ],
+            "image": "push_up.png",
+            "video": ""
+        },
+
+        {
+            "id": 7,
+            "name": "Wykroki",
+            "muscles": [
+                { "name": "czworoglowy", "ratio": 0.4 },
+                { "name": "posladki", "ratio": 0.35 },
+                { "name": "gornybrzucha", "ratio": 0.25 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": [],
+            "movement": "legs",
+            "type": "Masa ciała",
+            "difficulty": "średni",
+            "bodyweightFactor": 0.6,
+            "instructions": [
+                "Zrób krok do przodu.",
+                "Opuść biodra w dół.",
+                "Wróć do pozycji startowej.",
+                "Zmień nogę."
+            ],
+            "image": "lunges.png",
+            "video": ""
+        },
+
+        {
+            "id": 8,
+            "name": "Uginanie ramion z hantlami",
+            "muscles": [
+                { "name": "biceps", "ratio": 0.8 },
+                { "name": "przedramiona", "ratio": 0.2 }
+            ],
+            "category": "Izolowane",
+            "equipment": ["hantle"],
+            "movement": "pull",
+            "type": "Siła",
+            "difficulty": "łatwy",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Trzymaj hantle wzdłuż ciała.",
+                "Zginaj ramiona w łokciach.",
+                "Kontroluj opuszczanie.",
+                "Nie bujaj tułowiem."
+            ],
+            "image": "dumbbell_curl.png",
+            "video": ""
+        },
+
+        {
+            "id": 9,
+            "name": "Plank",
+            "muscles": [
+                { "name": "gornybrzucha", "ratio": 0.5 },
+                { "name": "dolnybrzucha", "ratio": 0.3 },
+                { "name": "skosny", "ratio": 0.2 }
+            ],
+            "category": "Izometryczne",
+            "equipment": [],
+            "movement": "core",
+            "type": "Masa ciała",
+            "difficulty": "średni",
+            "bodyweightFactor": 0.4,
+            "instructions": [
+                "Oprzyj się na przedramionach.",
+                "Utrzymuj ciało w linii prostej.",
+                "Napnij brzuch.",
+                "Oddychaj spokojnie."
+            ],
+            "image": "plank.png",
+            "video": ""
+        },
+
+        {
+            "id": 10,
+            "name": "Prostowanie ramion na wyciągu",
+            "muscles": [
+                { "name": "triceps", "ratio": 0.85 },
+                { "name": "przedramiona", "ratio": 0.15 }
+            ],
+            "category": "Izolowane",
+            "equipment": ["wyciąg"],
+            "movement": "push",
+            "type": "Siła",
+            "difficulty": "łatwy",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Stań przodem do wyciągu.",
+                "Chwyć drążek nachwytem.",
+                "Prostuj ramiona w łokciach.",
+                "Kontroluj powrót ciężaru."
+            ],
+            "image": "triceps_pushdown.png",
+            "video": ""
+        },
+
+        {
+            "id": 11,
+            "name": "Unoszenie hantli bokiem",
+            "muscles": [
+                { "name": "naramienny", "ratio": 0.75 },
+                { "name": "czworoboczny", "ratio": 0.25 }
+            ],
+            "category": "Izolowane",
+            "equipment": ["hantle"],
+            "movement": "push",
+            "type": "Siła",
+            "difficulty": "łatwy",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Trzymaj hantle wzdłuż ciała.",
+                "Unieś ramiona bokiem do wysokości barków.",
+                "Zatrzymaj ruch na moment.",
+                "Opuść hantle kontrolowanie."
+            ],
+            "image": "lateral_raise.png",
+            "video": ""
+        },
+
+        {
+            "id": 12,
+            "name": "Przysiad goblet z hantlem suwnicy",
+            "muscles": [
+            { "name": "czworoglowy", "ratio": 0.8 },
+            { "name": "posladki", "ratio": 0.2 }
+            ],
+            "category": "Izolowane",
+            "equipment": ["hantle"],
+            "movement": "legs",
+            "type": "Siła",
+            "difficulty": "łatwy",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Trzymaj obciążenie przycisinięte do górnej części klatki piersiowej.",
+                "Trzymając łokcie blisko ciała. Stopy ustaw szrzej niż na szerokość barków.",
+                "Zejdź w przysiad, trzymaj łokcie wewnątrz linii kolan.",
+                "Wypchnij pięty, trzymaj klatkę piersiową uniesioną i wróć do pozycji wyjściowej."
+            ],
+            "image": "goblet_squat.png",
+            "video": ""
+        },
+
+        {
+            "id": 13,
+            "name": "Wspięcia na palce stojąc",
+            "muscles": [
+            { "name": "lydki", "ratio": 0.9 },
+            { "name": "piszczelowy", "ratio": 0.1 }
+            ],
+            "category": "Izolowane",
+            "equipment": [],
+            "movement": "legs",
+            "type": "Masa ciała",
+            "difficulty": "łatwy",
+            "bodyweightFactor": 0.8,
+            "instructions": [
+                "Stań prosto.",
+                "Unieś pięty jak najwyżej.",
+                "Zatrzymaj ruch na moment.",
+                "Opuść pięty powoli."
+            ],
+            "image": "calf_raise.png",
+            "video": ""
+        },
+
+        {
+            "id": 14,
+            "name": "Brzuszki",
+            "muscles": [
+                { "name": "gornybrzucha", "ratio": 0.7 },
+                { "name": "dolnybrzucha", "ratio": 0.2 },
+                { "name": "skosny", "ratio": 0.1 }
+            ],
+            "category": "Izolowane",
+            "equipment": [],
+            "movement": "core",
+            "type": "Masa ciała",
+            "difficulty": "łatwy",
+            "bodyweightFactor": 0.4,
+            "instructions": [
+                "Połóż się na plecach.",
+                "Zegnij kolana.",
+                "Unieś tułów, napinając brzuch.",
+                "Powoli wróć do pozycji startowej."
+            ],
+            "image": "crunch.png",
+            "video": ""
+        },
+
+        {
+            "id": 15,
+            "name": "Face pull",
+            "muscles": [
+                { "name": "czworoboczny", "ratio": 0.45 },
+                { "name": "naramienny", "ratio": 0.35 },
+                { "name": "przedramiona", "ratio": 0.2 }
+            ],
+            "category": "Izolowane",
+            "equipment": ["wyciąg"],
+            "movement": "pull",
+            "type": "Siła",
+            "difficulty": "średni",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Ustaw linkę na wysokości twarzy.",
+                "Przyciągnij ją w kierunku twarzy.",
+                "Ściągnij łopatki.",
+                "Kontroluj powrót."
+            ],
+            "image": "face_pull.png",
+            "video": ""
+        },
+
+        {
+            "id": 16,
+            "name": "Hip thrust",
+            "muscles": [
+                { "name": "posladki", "ratio": 0.7 },
+                { "name": "dwuglowy", "ratio": 0.2 },
+                { "name": "gornybrzucha", "ratio": 0.1 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": ["sztanga", "ławka"],
+            "movement": "hinge",
+            "type": "Siła",
+            "difficulty": "średni",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Oprzyj plecy o ławkę.",
+                "Sztanga na biodrach.",
+                "Wypchnij biodra w górę.",
+                "Ściśnij pośladki na górze ruchu."
+            ],
+            "image": "hip_thrust.png",
+            "video": ""
+        },
+
+        {
+            "id": 17,
+            "name": "Przyciąganie drążka do klatki",
+            "muscles": [
+                { "name": "najszerszy", "ratio": 0.6 },
+                { "name": "biceps", "ratio": 0.25 },
+                { "name": "czworoboczny", "ratio": 0.15 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": ["wyciąg"],
+            "movement": "pull",
+            "type": "Siła",
+            "difficulty": "łatwy",
+            "bodyweightFactor": null,
+            "instructions": [
+                "Chwyć sztangę dłońmi skierowanymi do przodu, rozstaw dłonie szerzej niż szerokość barków.",
+                "Odchyl tułów o około 30 stopni i wypchnij klatkę piersiową.",
+                "Ściągnij drążek do wysokości brody, jednocześnie ściągnij łopatki do siebie.",
+                "Powoli wróć do góry, wypuszczając przy tym barki."
+            ],
+            "image": "lat_pulldown.png",
+            "video": ""
+        },
+
+        {
+            "id": 18,
+            "name": "Dipy",
+            "muscles": [
+                { "name": "triceps", "ratio": 0.45 },
+                { "name": "piersiowy", "ratio": 0.35 },
+                { "name": "naramienny", "ratio": 0.2 }
+            ],
+            "category": "Wielostawowe",
+            "equipment": ["poręcze"],
+            "movement": "push",
+            "type": "Masa ciała",
+            "difficulty": "trudny",
+            "bodyweightFactor": 0.85,
+            "instructions": [
+                "Oprzyj się na poręczach.",
+                "Opuść ciało w dół.",
+                "Wypchnij się do góry.",
+                "Utrzymuj stabilny tułów."
+            ],
+            "image": "dips.png",
+            "video": ""
+        },
+
+        {
+            "id": 19,
+            "name": "Russian twist",
+            "muscles": [
+                { "name": "skosny", "ratio": 0.5 },
+                { "name": "gornybrzucha", "ratio": 0.25 },
+                { "name": "dolnybrzucha", "ratio": 0.25 }
+            ],
+            "category": "Izolowane",
+            "equipment": [],
+            "movement": "core",
+            "type": "Masa ciała",
+            "difficulty": "średni",
+            "bodyweightFactor": 0.35,
+            "instructions": [
+                "Usiądź na podłodze.",
+                "Unieś lekko nogi.",
+                "Skręcaj tułów na boki.",
+                "Kontroluj tempo ruchu."
+            ],
+            "image": "russian_twist.png",
+            "video": ""
+        }
+    ]
+}
